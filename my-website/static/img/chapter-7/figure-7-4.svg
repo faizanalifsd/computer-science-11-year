@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="320" viewBox="0 0 520 320" font-family="Arial, sans-serif">
+  <rect width="520" height="320" fill="#f8faff" rx="12"/>
+  <text x="260" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 7.4: Pillars of Digital Citizenship</text>
+
+  <!-- Central circle -->
+  <circle cx="260" cy="170" r="50" fill="#1565c0" stroke="white" stroke-width="3"/>
+  <text x="260" y="163" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Digital</text>
+  <text x="260" y="177" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Citizenship</text>
+
+  <!-- 6 pillars around the center -->
+
+  <!-- Top -->
+  <line x1="260" y1="120" x2="260" y2="78" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="192" y="42" width="136" height="35" fill="#1976D2" rx="7"/>
+  <text x="260" y="57" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Responsible Behavior</text>
+  <text x="260" y="70" text-anchor="middle" font-size="9" fill="#BBDEFB">Strong passwords, safe browsing</text>
+
+  <!-- Top-right -->
+  <line x1="302" y1="140" x2="348" y2="110" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="340" y="76" width="150" height="35" fill="#1976D2" rx="7"/>
+  <text x="415" y="91" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Ethical Information Use</text>
+  <text x="415" y="104" text-anchor="middle" font-size="9" fill="#BBDEFB">Copyright, no plagiarism</text>
+
+  <!-- Bottom-right -->
+  <line x1="306" y1="200" x2="348" y2="228" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="340" y="222" width="150" height="35" fill="#1976D2" rx="7"/>
+  <text x="415" y="237" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Cybersecurity Awareness</text>
+  <text x="415" y="250" text-anchor="middle" font-size="9" fill="#BBDEFB">Protect against online threats</text>
+
+  <!-- Bottom -->
+  <line x1="260" y1="220" x2="260" y2="260" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="182" y="260" width="156" height="35" fill="#1976D2" rx="7"/>
+  <text x="260" y="275" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Accessible Content</text>
+  <text x="260" y="288" text-anchor="middle" font-size="9" fill="#BBDEFB">Design for all users</text>
+
+  <!-- Bottom-left -->
+  <line x1="214" y1="200" x2="172" y2="228" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="30" y="222" width="150" height="35" fill="#1976D2" rx="7"/>
+  <text x="105" y="237" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Collaborative Solving</text>
+  <text x="105" y="250" text-anchor="middle" font-size="9" fill="#BBDEFB">Teamwork + human-machine</text>
+
+  <!-- Top-left -->
+  <line x1="218" y1="140" x2="172" y2="110" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="30" y="76" width="150" height="35" fill="#1976D2" rx="7"/>
+  <text x="105" y="91" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Privacy &amp; Data Rights</text>
+  <text x="105" y="104" text-anchor="middle" font-size="9" fill="#BBDEFB">Know and protect your rights</text>
+</svg>

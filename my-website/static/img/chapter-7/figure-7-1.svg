@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="340" viewBox="0 0 520 340" font-family="Arial, sans-serif">
+  <rect width="520" height="340" fill="#f8faff" rx="12"/>
+  <text x="260" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 7.1: Common Clauses in Terms of Use</text>
+
+  <!-- Center circle -->
+  <circle cx="260" cy="175" r="48" fill="#1565c0" stroke="white" stroke-width="3"/>
+  <text x="260" y="170" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Terms</text>
+  <text x="260" y="184" text-anchor="middle" font-size="10" fill="white" font-weight="bold">of Use</text>
+
+  <!-- 5 surrounding boxes connected by lines -->
+  <!-- Top: User Obligations -->
+  <line x1="260" y1="127" x2="260" y2="85" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="185" y="48" width="150" height="36" fill="#1976D2" rx="6"/>
+  <text x="260" y="63" text-anchor="middle" font-size="10" fill="white" font-weight="bold">User Obligations</text>
+  <text x="260" y="77" text-anchor="middle" font-size="9" fill="#BBDEFB">What users must do</text>
+
+  <!-- Top-right: Limitations of Liability -->
+  <line x1="302" y1="145" x2="355" y2="110" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="345" y="75" width="155" height="36" fill="#1976D2" rx="6"/>
+  <text x="422" y="90" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Limitations of Liability</text>
+  <text x="422" y="104" text-anchor="middle" font-size="9" fill="#BBDEFB">Limits provider's liability</text>
+
+  <!-- Bottom-right: Intellectual Property -->
+  <line x1="306" y1="197" x2="355" y2="238" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="345" y="230" width="155" height="36" fill="#1976D2" rx="6"/>
+  <text x="422" y="245" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Intellectual Property</text>
+  <text x="422" y="259" text-anchor="middle" font-size="9" fill="#BBDEFB">Protects provider content</text>
+
+  <!-- Bottom: Termination of Service -->
+  <line x1="260" y1="223" x2="260" y2="268" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="178" y="268" width="164" height="36" fill="#1976D2" rx="6"/>
+  <text x="260" y="283" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Termination of Service</text>
+  <text x="260" y="297" text-anchor="middle" font-size="9" fill="#BBDEFB">When access can be revoked</text>
+
+  <!-- Bottom-left: Privacy and Data Use -->
+  <line x1="214" y1="197" x2="165" y2="238" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="20" y="230" width="155" height="36" fill="#1976D2" rx="6"/>
+  <text x="97" y="245" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Privacy &amp; Data Use</text>
+  <text x="97" y="259" text-anchor="middle" font-size="9" fill="#BBDEFB">How data is collected/used</text>
+
+  <!-- Top-left box doesn't exist; but let's replace with a 5th -->
+  <!-- Actually we have 5 exactly. Good. -->
+
+  <text x="260" y="325" text-anchor="middle" font-size="10" fill="#555">Each clause protects both the provider and the user</text>
+</svg>
