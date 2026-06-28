@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360" font-family="Arial, sans-serif">
+  <rect width="520" height="360" fill="#f8faff" rx="12"/>
+  <text x="260" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 6.2: Architecture of a Blockchain Network</text>
+
+  <!-- Central label -->
+  <text x="260" y="195" text-anchor="middle" font-size="11" fill="#1565c0" font-weight="bold">P2P Network</text>
+  <text x="260" y="210" text-anchor="middle" font-size="9" fill="#555">(Decentralized)</text>
+
+  <!-- 6 nodes arranged in a hexagon -->
+  <!-- Node positions: top=260,70; top-right=400,145; bottom-right=400,270; bottom=260,320; bottom-left=120,270; top-left=120,145 -->
+
+  <!-- Connection lines between nodes -->
+  <g stroke="#90CAF9" stroke-width="1.5">
+    <line x1="260" y1="90" x2="385" y2="155"/>
+    <line x1="260" y1="90" x2="135" y2="155"/>
+    <line x1="260" y1="90" x2="260" y2="300"/>
+    <line x1="385" y1="155" x2="385" y2="265"/>
+    <line x1="385" y1="155" x2="135" y2="265"/>
+    <line x1="135" y1="155" x2="135" y2="265"/>
+    <line x1="135" y1="265" x2="260" y2="300"/>
+    <line x1="385" y1="265" x2="260" y2="300"/>
+    <line x1="135" y1="155" x2="385" y2="265"/>
+    <line x1="385" y1="155" x2="135" y2="265"/>
+  </g>
+
+  <!-- Node circles and labels -->
+  <!-- Top -->
+  <circle cx="260" cy="80" r="30" fill="#1565c0" stroke="white" stroke-width="2"/>
+  <text x="260" y="76" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Node A</text>
+  <text x="260" y="88" text-anchor="middle" font-size="8" fill="#BBDEFB">Full Copy</text>
+
+  <!-- Top-right -->
+  <circle cx="390" cy="150" r="30" fill="#1976D2" stroke="white" stroke-width="2"/>
+  <text x="390" y="146" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Node B</text>
+  <text x="390" y="158" text-anchor="middle" font-size="8" fill="#BBDEFB">Full Copy</text>
+
+  <!-- Bottom-right -->
+  <circle cx="390" cy="265" r="30" fill="#1976D2" stroke="white" stroke-width="2"/>
+  <text x="390" y="261" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Node C</text>
+  <text x="390" y="273" text-anchor="middle" font-size="8" fill="#BBDEFB">Full Copy</text>
+
+  <!-- Bottom -->
+  <circle cx="260" cy="305" r="30" fill="#1565c0" stroke="white" stroke-width="2"/>
+  <text x="260" y="301" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Node D</text>
+  <text x="260" y="313" text-anchor="middle" font-size="8" fill="#BBDEFB">Full Copy</text>
+
+  <!-- Bottom-left -->
+  <circle cx="130" cy="265" r="30" fill="#1976D2" stroke="white" stroke-width="2"/>
+  <text x="130" y="261" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Node E</text>
+  <text x="130" y="273" text-anchor="middle" font-size="8" fill="#BBDEFB">Full Copy</text>
+
+  <!-- Top-left -->
+  <circle cx="130" cy="150" r="30" fill="#1976D2" stroke="white" stroke-width="2"/>
+  <text x="130" y="146" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Node F</text>
+  <text x="130" y="158" text-anchor="middle" font-size="8" fill="#BBDEFB">Full Copy</text>
+
+  <!-- Block chain representation at bottom -->
+  <rect x="55" y="338" width="70" height="16" fill="#1565c0" rx="3"/>
+  <text x="90" y="350" text-anchor="middle" font-size="9" fill="white">Block 0</text>
+  <line x1="125" y1="346" x2="140" y2="346" stroke="#1565c0" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="140" y="338" width="70" height="16" fill="#1565c0" rx="3"/>
+  <text x="175" y="350" text-anchor="middle" font-size="9" fill="white">Block 1</text>
+  <line x1="210" y1="346" x2="225" y2="346" stroke="#1565c0" stroke-width="2"/>
+  <rect x="225" y="338" width="70" height="16" fill="#1565c0" rx="3"/>
+  <text x="260" y="350" text-anchor="middle" font-size="9" fill="white">Block 2</text>
+  <line x1="295" y1="346" x2="310" y2="346" stroke="#1565c0" stroke-width="2"/>
+  <rect x="310" y="338" width="70" height="16" fill="#1565c0" rx="3"/>
+  <text x="345" y="350" text-anchor="middle" font-size="9" fill="white">Block 3</text>
+  <line x1="380" y1="346" x2="395" y2="346" stroke="#555" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="415" y="350" font-size="9" fill="#555">→ n</text>
+
+  <text x="260" y="330" text-anchor="middle" font-size="9" fill="#555">Shared Blockchain Ledger (identical copy on every node)</text>
+</svg>

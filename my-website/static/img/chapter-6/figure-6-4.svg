@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="320" viewBox="0 0 520 320" font-family="Arial, sans-serif">
+  <rect width="520" height="320" fill="#f8faff" rx="12"/>
+  <text x="260" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 6.4: Blockchain in Banking — Identity Verification</text>
+
+  <!-- Three columns: Identity Issuer | Blockchain (Identity Hub) | Identity Verifier -->
+
+  <!-- Identity Issuer -->
+  <rect x="30" y="55" width="120" height="200" fill="#E3F2FD" rx="10" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="90" y="78" text-anchor="middle" font-size="11" fill="#1565c0" font-weight="bold">Identity</text>
+  <text x="90" y="93" text-anchor="middle" font-size="11" fill="#1565c0" font-weight="bold">Issuer</text>
+  <!-- Items -->
+  <rect x="45" y="105" width="90" height="22" fill="#1565c0" rx="4"/>
+  <text x="90" y="120" text-anchor="middle" font-size="9" fill="white">Government</text>
+  <rect x="45" y="135" width="90" height="22" fill="#1976D2" rx="4"/>
+  <text x="90" y="150" text-anchor="middle" font-size="9" fill="white">Bank</text>
+  <rect x="45" y="165" width="90" height="22" fill="#1976D2" rx="4"/>
+  <text x="90" y="180" text-anchor="middle" font-size="9" fill="white">University</text>
+  <rect x="45" y="195" width="90" height="22" fill="#42A5F5" rx="4"/>
+  <text x="90" y="210" text-anchor="middle" font-size="9" fill="white">Employer</text>
+  <text x="90" y="242" text-anchor="middle" font-size="9" fill="#1565c0">Issues attestations</text>
+
+  <!-- User (center-left) -->
+  <circle cx="220" cy="100" r="30" fill="#1565c0" stroke="white" stroke-width="2"/>
+  <text x="220" y="96" text-anchor="middle" font-size="10" fill="white" font-weight="bold">User</text>
+  <text x="220" y="110" text-anchor="middle" font-size="9" fill="#BBDEFB">Identity</text>
+
+  <!-- Identity Hub / Blockchain -->
+  <rect x="185" y="155" width="150" height="90" fill="#1565c0" rx="10"/>
+  <text x="260" y="178" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Identity Hub</text>
+  <text x="260" y="195" text-anchor="middle" font-size="9" fill="#BBDEFB">(Blockchain)</text>
+  <text x="260" y="211" text-anchor="middle" font-size="9" fill="#90CAF9">Stores encrypted</text>
+  <text x="260" y="224" text-anchor="middle" font-size="9" fill="#90CAF9">attestations</text>
+
+  <!-- Identity Verifier -->
+  <rect x="370" y="55" width="120" height="200" fill="#E8F5E9" rx="10" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="430" y="78" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="bold">Identity</text>
+  <text x="430" y="93" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="bold">Verifier</text>
+  <rect x="385" y="105" width="90" height="22" fill="#2e7d32" rx="4"/>
+  <text x="430" y="120" text-anchor="middle" font-size="9" fill="white">Bank Branch</text>
+  <rect x="385" y="135" width="90" height="22" fill="#388E3C" rx="4"/>
+  <text x="430" y="150" text-anchor="middle" font-size="9" fill="white">Online Service</text>
+  <rect x="385" y="165" width="90" height="22" fill="#388E3C" rx="4"/>
+  <text x="430" y="180" text-anchor="middle" font-size="9" fill="white">Loan Provider</text>
+  <text x="430" y="242" text-anchor="middle" font-size="9" fill="#2e7d32">Verifies attestations</text>
+
+  <!-- Arrows -->
+  <!-- Issuer → User -->
+  <line x1="150" y1="130" x2="188" y2="107" stroke="#1565c0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="165" y="112" font-size="8" fill="#1565c0">issue</text>
+  <!-- User → Hub -->
+  <line x1="220" y1="130" x2="230" y2="155" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="196" y="148" font-size="8" fill="#1565c0">register</text>
+  <!-- User → Verifier -->
+  <line x1="250" y1="100" x2="368" y2="115" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="295" y="98" font-size="8" fill="#2e7d32">present</text>
+  <!-- Hub → Verifier -->
+  <line x1="335" y1="200" x2="368" y2="180" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="342" y="195" font-size="8" fill="#2e7d32">verify</text>
+
+  <text x="260" y="300" text-anchor="middle" font-size="10" fill="#555">Blockchain ensures identity data is secure, tamper-proof, and verifiable</text>
+</svg>

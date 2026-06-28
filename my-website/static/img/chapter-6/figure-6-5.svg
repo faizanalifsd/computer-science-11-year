@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="260" viewBox="0 0 500 260" font-family="Arial, sans-serif">
+  <rect width="500" height="260" fill="#f8faff" rx="12"/>
+  <text x="250" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 6.5: Cryptography — Encryption and Decryption</text>
+
+  <!-- Plain Text box (left) -->
+  <rect x="20" y="70" width="90" height="100" fill="#E3F2FD" rx="8" stroke="#1565c0" stroke-width="2"/>
+  <text x="65" y="98" text-anchor="middle" font-size="10" fill="#1565c0" font-weight="bold">Plain Text</text>
+  <text x="65" y="115" text-anchor="middle" font-size="18" fill="#1565c0">ABC</text>
+  <text x="65" y="138" text-anchor="middle" font-size="9" fill="#555">Original</text>
+  <text x="65" y="152" text-anchor="middle" font-size="9" fill="#555">message</text>
+
+  <!-- Encryption box -->
+  <rect x="140" y="80" width="90" height="80" fill="#1565c0" rx="8"/>
+  <text x="185" y="108" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Encryption</text>
+  <text x="185" y="124" text-anchor="middle" font-size="9" fill="#BBDEFB">Secret Key +</text>
+  <text x="185" y="138" text-anchor="middle" font-size="9" fill="#BBDEFB">Algorithm</text>
+
+  <!-- Arrow left to encryption -->
+  <line x1="110" y1="120" x2="138" y2="120" stroke="#1565c0" stroke-width="2"/>
+  <polygon points="138,115 148,120 138,125" fill="#1565c0"/>
+
+  <!-- Cipher Text box (center) -->
+  <rect x="255" y="70" width="90" height="100" fill="#1565c0" rx="8" stroke="#0D47A1" stroke-width="2"/>
+  <text x="300" y="98" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Cipher Text</text>
+  <text x="300" y="118" text-anchor="middle" font-size="13" fill="#90CAF9" font-weight="bold">X#@!%</text>
+  <text x="300" y="140" text-anchor="middle" font-size="9" fill="#BBDEFB">Encrypted /</text>
+  <text x="300" y="153" text-anchor="middle" font-size="9" fill="#BBDEFB">Unreadable</text>
+
+  <!-- Arrow encryption to cipher -->
+  <line x1="230" y1="120" x2="253" y2="120" stroke="#1565c0" stroke-width="2"/>
+  <polygon points="253,115 263,120 253,125" fill="#1565c0"/>
+
+  <!-- Decryption box -->
+  <rect x="370" y="80" width="90" height="80" fill="#2e7d32" rx="8"/>
+  <text x="415" y="108" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Decryption</text>
+  <text x="415" y="124" text-anchor="middle" font-size="9" fill="#C8E6C9">Secret Key +</text>
+  <text x="415" y="138" text-anchor="middle" font-size="9" fill="#C8E6C9">Algorithm</text>
+
+  <!-- Arrow cipher to decryption -->
+  <line x1="345" y1="120" x2="368" y2="120" stroke="#2e7d32" stroke-width="2"/>
+  <polygon points="368,115 378,120 368,125" fill="#2e7d32"/>
+
+  <!-- Plain Text box (right) - receiver -->
+  <!-- We loop back with an arrow below -->
+  <text x="415" y="195" text-anchor="middle" font-size="9" fill="#2e7d32">→ Original</text>
+  <text x="415" y="208" text-anchor="middle" font-size="9" fill="#2e7d32">message</text>
+  <text x="415" y="221" text-anchor="middle" font-size="9" fill="#2e7d32">restored</text>
+
+  <!-- Secret Key label top -->
+  <rect x="175" y="40" width="150" height="24" fill="#FF9800" rx="6"/>
+  <text x="250" y="56" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Secret Key (shared securely)</text>
+  <!-- Key lines to boxes -->
+  <line x1="185" y1="64" x2="185" y2="80" stroke="#FF9800" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="415" y1="64" x2="415" y2="80" stroke="#FF9800" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Labels at bottom -->
+  <text x="65"  y="195" text-anchor="middle" font-size="9" fill="#555">Sender</text>
+  <text x="300" y="195" text-anchor="middle" font-size="9" fill="#555">In Transit</text>
+  <text x="415" y="185" text-anchor="middle" font-size="9" fill="#555">Receiver</text>
+
+  <text x="250" y="245" text-anchor="middle" font-size="10" fill="#555">Only the holder of the secret key can decrypt and read the message</text>
+</svg>

@@ -116,7 +116,11 @@ def main():
         for chunk, emb in zip(all_chunks, all_embeddings)
     ]
 
-    client.upsert(collection_name=COLLECTION, points=points)
+    UPSERT_BATCH = 50
+    for i in range(0, len(points), UPSERT_BATCH):
+        batch = points[i : i + UPSERT_BATCH]
+        client.upsert(collection_name=COLLECTION, points=batch)
+        logger.info(f"  Upserted {min(i + UPSERT_BATCH, len(points))}/{len(points)}")
     logger.info(f"\nDone! Indexed {len(points)} chunks from {len(md_files)} file(s).")
 
 
