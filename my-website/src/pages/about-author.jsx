@@ -44,10 +44,11 @@ export default function AboutAuthor() {
           {/* Hero */}
           <div className={styles.hero}>
             <div className={styles.avatarWrapper}>
-              {/* Replace src with actual image path once provided */}
-              <div className={styles.avatarPlaceholder}>
-                <span>FA</span>
-              </div>
+              <img
+                src="/img/author.jpg"
+                alt="Faizan Ali — Author"
+                className={styles.avatar}
+              />
             </div>
             <div className={styles.heroText}>
               <Heading as="h1" className={styles.name}>Faizan Ali</Heading>
