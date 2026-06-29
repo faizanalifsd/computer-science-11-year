@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300" font-family="Arial, sans-serif">
+  <rect width="520" height="300" fill="#f8faff" rx="12"/>
+  <text x="260" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 9.3: Key Financial Concepts for Business</text>
+
+  <!-- Revenue box -->
+  <rect x="20" y="50" width="145" height="100" fill="#1565c0" rx="8"/>
+  <text x="92" y="78" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Revenue</text>
+  <text x="92" y="96" text-anchor="middle" font-size="10" fill="#BBDEFB">Total money earned</text>
+  <text x="92" y="112" text-anchor="middle" font-size="10" fill="#BBDEFB">from selling goods</text>
+  <text x="92" y="128" text-anchor="middle" font-size="10" fill="#BBDEFB">or services</text>
+  <text x="92" y="144" text-anchor="middle" font-size="11" fill="#FF9800" font-weight="bold">Rs. 50,000</text>
+
+  <!-- Minus sign -->
+  <text x="178" y="108" text-anchor="middle" font-size="28" fill="#555" font-weight="bold">−</text>
+
+  <!-- Expenses box -->
+  <rect x="197" y="50" width="145" height="100" fill="#c62828" rx="8"/>
+  <text x="270" y="78" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Expenses</text>
+  <text x="270" y="96" text-anchor="middle" font-size="10" fill="#FFCDD2">Rent, salaries,</text>
+  <text x="270" y="112" text-anchor="middle" font-size="10" fill="#FFCDD2">utilities, raw</text>
+  <text x="270" y="128" text-anchor="middle" font-size="10" fill="#FFCDD2">materials</text>
+  <text x="270" y="144" text-anchor="middle" font-size="11" fill="#FF9800" font-weight="bold">Rs. 30,000</text>
+
+  <!-- Equals sign -->
+  <text x="354" y="108" text-anchor="middle" font-size="28" fill="#555" font-weight="bold">=</text>
+
+  <!-- Profit box -->
+  <rect x="372" y="50" width="130" height="100" fill="#2e7d32" rx="8"/>
+  <text x="437" y="78" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Profit</text>
+  <text x="437" y="96" text-anchor="middle" font-size="10" fill="#C8E6C9">Money remaining</text>
+  <text x="437" y="112" text-anchor="middle" font-size="10" fill="#C8E6C9">after all costs</text>
+  <text x="437" y="128" text-anchor="middle" font-size="10" fill="#C8E6C9">are paid</text>
+  <text x="437" y="144" text-anchor="middle" font-size="11" fill="#FF9800" font-weight="bold">Rs. 20,000</text>
+
+  <!-- Bottom row: Budget, Investment, Loan -->
+  <rect x="20" y="175" width="145" height="95" fill="#E3F2FD" rx="8" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="92" y="198" text-anchor="middle" font-size="11" fill="#1565c0" font-weight="bold">Budget</text>
+  <text x="92" y="216" text-anchor="middle" font-size="9" fill="#555">Plan for how money</text>
+  <text x="92" y="230" text-anchor="middle" font-size="9" fill="#555">will be spent in</text>
+  <text x="92" y="244" text-anchor="middle" font-size="9" fill="#555">each area</text>
+  <text x="92" y="260" text-anchor="middle" font-size="9" fill="#1565c0" font-style="italic">Bakery budget: Rs. 750,000/mo</text>
+
+  <rect x="187" y="175" width="145" height="95" fill="#E8F5E9" rx="8" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="260" y="198" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="bold">Investment &amp; Savings</text>
+  <text x="260" y="216" text-anchor="middle" font-size="9" fill="#555">Allocate funds now</text>
+  <text x="260" y="230" text-anchor="middle" font-size="9" fill="#555">for future profit;</text>
+  <text x="260" y="244" text-anchor="middle" font-size="9" fill="#555">save for future needs</text>
+  <text x="260" y="260" text-anchor="middle" font-size="9" fill="#2e7d32" font-style="italic">Save Rs. 10,000/mo for oven</text>
+
+  <rect x="354" y="175" width="148" height="95" fill="#FFF3E0" rx="8" stroke="#E65100" stroke-width="1.5"/>
+  <text x="428" y="198" text-anchor="middle" font-size="11" fill="#E65100" font-weight="bold">Loans &amp; Interest</text>
+  <text x="428" y="216" text-anchor="middle" font-size="9" fill="#555">Borrowed money</text>
+  <text x="428" y="230" text-anchor="middle" font-size="9" fill="#555">repaid with extra</text>
+  <text x="428" y="244" text-anchor="middle" font-size="9" fill="#555">cost (interest %)</text>
+  <text x="428" y="260" text-anchor="middle" font-size="9" fill="#E65100" font-style="italic">Bank loan for expansion</text>
+</svg>
