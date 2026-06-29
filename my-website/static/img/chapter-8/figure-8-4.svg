@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="300" viewBox="0 0 540 300" font-family="Arial, sans-serif">
+  <rect width="540" height="300" fill="#f8faff" rx="12"/>
+  <text x="270" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 8.4: Types of Intellectual Property</text>
+
+  <!-- 5 columns -->
+  <!-- Patent -->
+  <rect x="18" y="46" width="92" height="230" fill="#E3F2FD" rx="8" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="18" y="46" width="92" height="36" fill="#1565c0" rx="8"/>
+  <rect x="18" y="66" width="92" height="16" fill="#1565c0"/>
+  <text x="64" y="68" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Patent</text>
+  <text x="64" y="110" text-anchor="middle" font-size="9" fill="#1565c0" font-weight="bold">Protects:</text>
+  <text x="64" y="126" text-anchor="middle" font-size="9" fill="#555">Inventions &amp;</text>
+  <text x="64" y="140" text-anchor="middle" font-size="9" fill="#555">new processes</text>
+  <text x="64" y="168" text-anchor="middle" font-size="9" fill="#1565c0" font-weight="bold">Example:</text>
+  <text x="64" y="184" text-anchor="middle" font-size="9" fill="#555">New solar</text>
+  <text x="64" y="198" text-anchor="middle" font-size="9" fill="#555">panel design</text>
+  <text x="64" y="230" text-anchor="middle" font-size="9" fill="#1565c0" font-weight="bold">Duration:</text>
+  <text x="64" y="246" text-anchor="middle" font-size="9" fill="#555">20 years</text>
+
+  <!-- Trademark -->
+  <rect x="118" y="46" width="92" height="230" fill="#E8F5E9" rx="8" stroke="#2e7d32" stroke-width="1.5"/>
+  <rect x="118" y="46" width="92" height="36" fill="#2e7d32" rx="8"/>
+  <rect x="118" y="66" width="92" height="16" fill="#2e7d32"/>
+  <text x="164" y="68" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Trademark</text>
+  <text x="164" y="110" text-anchor="middle" font-size="9" fill="#2e7d32" font-weight="bold">Protects:</text>
+  <text x="164" y="126" text-anchor="middle" font-size="9" fill="#555">Brand names,</text>
+  <text x="164" y="140" text-anchor="middle" font-size="9" fill="#555">logos, slogans</text>
+  <text x="164" y="168" text-anchor="middle" font-size="9" fill="#2e7d32" font-weight="bold">Example:</text>
+  <text x="164" y="184" text-anchor="middle" font-size="9" fill="#555">National Foods</text>
+  <text x="164" y="198" text-anchor="middle" font-size="9" fill="#555">logo</text>
+  <text x="164" y="230" text-anchor="middle" font-size="9" fill="#2e7d32" font-weight="bold">Duration:</text>
+  <text x="164" y="246" text-anchor="middle" font-size="9" fill="#555">Renewable</text>
+
+  <!-- Copyright -->
+  <rect x="218" y="46" width="104" height="230" fill="#FFF3E0" rx="8" stroke="#E65100" stroke-width="1.5"/>
+  <rect x="218" y="46" width="104" height="36" fill="#E65100" rx="8"/>
+  <rect x="218" y="66" width="104" height="16" fill="#E65100"/>
+  <text x="270" y="68" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Copyright</text>
+  <text x="270" y="110" text-anchor="middle" font-size="9" fill="#E65100" font-weight="bold">Protects:</text>
+  <text x="270" y="126" text-anchor="middle" font-size="9" fill="#555">Books, music,</text>
+  <text x="270" y="140" text-anchor="middle" font-size="9" fill="#555">films, software</text>
+  <text x="270" y="168" text-anchor="middle" font-size="9" fill="#E65100" font-weight="bold">Example:</text>
+  <text x="270" y="184" text-anchor="middle" font-size="9" fill="#555">Pakistani</text>
+  <text x="270" y="198" text-anchor="middle" font-size="9" fill="#555">author's novel</text>
+  <text x="270" y="230" text-anchor="middle" font-size="9" fill="#E65100" font-weight="bold">Duration:</text>
+  <text x="270" y="246" text-anchor="middle" font-size="9" fill="#555">Life + 50 yrs</text>
+
+  <!-- Industrial Design -->
+  <rect x="330" y="46" width="92" height="230" fill="#FCE4EC" rx="8" stroke="#c62828" stroke-width="1.5"/>
+  <rect x="330" y="46" width="92" height="36" fill="#c62828" rx="8"/>
+  <rect x="330" y="66" width="92" height="16" fill="#c62828"/>
+  <text x="376" y="60" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Industrial</text>
+  <text x="376" y="74" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Design</text>
+  <text x="376" y="110" text-anchor="middle" font-size="9" fill="#c62828" font-weight="bold">Protects:</text>
+  <text x="376" y="126" text-anchor="middle" font-size="9" fill="#555">Visual shape &amp;</text>
+  <text x="376" y="140" text-anchor="middle" font-size="9" fill="#555">appearance</text>
+  <text x="376" y="168" text-anchor="middle" font-size="9" fill="#c62828" font-weight="bold">Example:</text>
+  <text x="376" y="184" text-anchor="middle" font-size="9" fill="#555">Unique bottle</text>
+  <text x="376" y="198" text-anchor="middle" font-size="9" fill="#555">shape (Karachi)</text>
+  <text x="376" y="230" text-anchor="middle" font-size="9" fill="#c62828" font-weight="bold">Duration:</text>
+  <text x="376" y="246" text-anchor="middle" font-size="9" fill="#555">5–25 years</text>
+
+  <!-- Trade Secret -->
+  <rect x="430" y="46" width="92" height="230" fill="#EDE7F6" rx="8" stroke="#4527a0" stroke-width="1.5"/>
+  <rect x="430" y="46" width="92" height="36" fill="#4527a0" rx="8"/>
+  <rect x="430" y="66" width="92" height="16" fill="#4527a0"/>
+  <text x="476" y="60" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Trade</text>
+  <text x="476" y="74" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Secret</text>
+  <text x="476" y="110" text-anchor="middle" font-size="9" fill="#4527a0" font-weight="bold">Protects:</text>
+  <text x="476" y="126" text-anchor="middle" font-size="9" fill="#555">Confidential</text>
+  <text x="476" y="140" text-anchor="middle" font-size="9" fill="#555">business info</text>
+  <text x="476" y="168" text-anchor="middle" font-size="9" fill="#4527a0" font-weight="bold">Example:</text>
+  <text x="476" y="184" text-anchor="middle" font-size="9" fill="#555">Pakola drink</text>
+  <text x="476" y="198" text-anchor="middle" font-size="9" fill="#555">recipe</text>
+  <text x="476" y="230" text-anchor="middle" font-size="9" fill="#4527a0" font-weight="bold">Duration:</text>
+  <text x="476" y="246" text-anchor="middle" font-size="9" fill="#555">While secret</text>
+</svg>

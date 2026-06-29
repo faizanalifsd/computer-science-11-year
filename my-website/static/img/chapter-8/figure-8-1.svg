@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="320" viewBox="0 0 540 320" font-family="Arial, sans-serif">
+  <rect width="540" height="320" fill="#f8faff" rx="12"/>
+  <text x="270" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 8.1: Types of Online Research</text>
+
+  <!-- Center hub -->
+  <circle cx="270" cy="165" r="48" fill="#1565c0" stroke="white" stroke-width="3"/>
+  <text x="270" y="159" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Online</text>
+  <text x="270" y="173" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Research</text>
+
+  <!-- 5 surrounding nodes -->
+  <!-- Top: General -->
+  <line x1="270" y1="117" x2="270" y2="76" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="185" y="40" width="170" height="35" fill="#1976D2" rx="7"/>
+  <text x="270" y="55" text-anchor="middle" font-size="10" fill="white" font-weight="bold">General Information</text>
+  <text x="270" y="68" text-anchor="middle" font-size="9" fill="#BBDEFB">Basic facts on any topic</text>
+
+  <!-- Top-right: Academic -->
+  <line x1="309" y1="132" x2="355" y2="100" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="348" y="66" width="170" height="35" fill="#1976D2" rx="7"/>
+  <text x="433" y="81" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Academic Research</text>
+  <text x="433" y="94" text-anchor="middle" font-size="9" fill="#BBDEFB">Scholarly papers &amp; journals</text>
+
+  <!-- Bottom-right: Market -->
+  <line x1="313" y1="196" x2="355" y2="228" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="348" y="220" width="170" height="35" fill="#1976D2" rx="7"/>
+  <text x="433" y="235" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Market Research</text>
+  <text x="433" y="248" text-anchor="middle" font-size="9" fill="#BBDEFB">Trends &amp; customer behavior</text>
+
+  <!-- Bottom-left: Fact-checking -->
+  <line x1="227" y1="196" x2="185" y2="228" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="22" y="220" width="170" height="35" fill="#1976D2" rx="7"/>
+  <text x="107" y="235" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Fact-Checking</text>
+  <text x="107" y="248" text-anchor="middle" font-size="9" fill="#BBDEFB">Verify accuracy of information</text>
+
+  <!-- Top-left: Health -->
+  <line x1="231" y1="132" x2="185" y2="100" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="22" y="66" width="170" height="35" fill="#1976D2" rx="7"/>
+  <text x="107" y="81" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Health Research</text>
+  <text x="107" y="94" text-anchor="middle" font-size="9" fill="#BBDEFB">Medical &amp; healthcare info</text>
+
+  <text x="270" y="308" text-anchor="middle" font-size="10" fill="#555">Each type serves a different purpose — choose the right approach for your goal</text>
+</svg>

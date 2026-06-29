@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300" font-family="Arial, sans-serif">
+  <rect width="500" height="300" fill="#f8faff" rx="12"/>
+  <text x="250" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 8.3: Key Principles of Research Ethics</text>
+
+  <!-- 4 quadrant boxes -->
+  <!-- Top-left: Informed Consent -->
+  <rect x="20" y="45" width="215" height="105" fill="#E3F2FD" rx="8" stroke="#1565c0" stroke-width="2"/>
+  <rect x="20" y="45" width="215" height="30" fill="#1565c0" rx="8"/>
+  <rect x="20" y="60" width="215" height="15" fill="#1565c0"/>
+  <text x="127" y="65" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Informed Consent</text>
+  <text x="127" y="92" text-anchor="middle" font-size="10" fill="#1565c0">Always inform participants</text>
+  <text x="127" y="108" text-anchor="middle" font-size="10" fill="#1565c0">about the research purpose</text>
+  <text x="127" y="124" text-anchor="middle" font-size="10" fill="#1565c0">and get their permission</text>
+  <text x="127" y="140" text-anchor="middle" font-size="9" fill="#555" font-style="italic">before involving them</text>
+
+  <!-- Top-right: Confidentiality -->
+  <rect x="265" y="45" width="215" height="105" fill="#E8F5E9" rx="8" stroke="#2e7d32" stroke-width="2"/>
+  <rect x="265" y="45" width="215" height="30" fill="#2e7d32" rx="8"/>
+  <rect x="265" y="60" width="215" height="15" fill="#2e7d32"/>
+  <text x="372" y="65" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Confidentiality</text>
+  <text x="372" y="92" text-anchor="middle" font-size="10" fill="#2e7d32">Keep participants' personal</text>
+  <text x="372" y="108" text-anchor="middle" font-size="10" fill="#2e7d32">information and responses</text>
+  <text x="372" y="124" text-anchor="middle" font-size="10" fill="#2e7d32">private at all times</text>
+  <text x="372" y="140" text-anchor="middle" font-size="9" fill="#555" font-style="italic">do not share without permission</text>
+
+  <!-- Bottom-left: Integrity -->
+  <rect x="20" y="165" width="215" height="105" fill="#FFF3E0" rx="8" stroke="#E65100" stroke-width="2"/>
+  <rect x="20" y="165" width="215" height="30" fill="#E65100" rx="8"/>
+  <rect x="20" y="180" width="215" height="15" fill="#E65100"/>
+  <text x="127" y="185" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Integrity</text>
+  <text x="127" y="212" text-anchor="middle" font-size="10" fill="#E65100">Be honest and transparent</text>
+  <text x="127" y="228" text-anchor="middle" font-size="10" fill="#E65100">in all your research</text>
+  <text x="127" y="244" text-anchor="middle" font-size="10" fill="#E65100">activities and findings</text>
+  <text x="127" y="260" text-anchor="middle" font-size="9" fill="#555" font-style="italic">no falsification or plagiarism</text>
+
+  <!-- Bottom-right: Respect -->
+  <rect x="265" y="165" width="215" height="105" fill="#FCE4EC" rx="8" stroke="#c62828" stroke-width="2"/>
+  <rect x="265" y="165" width="215" height="30" fill="#c62828" rx="8"/>
+  <rect x="265" y="180" width="215" height="15" fill="#c62828"/>
+  <text x="372" y="185" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Respect for Participants</text>
+  <text x="372" y="212" text-anchor="middle" font-size="10" fill="#c62828">Treat all participants with</text>
+  <text x="372" y="228" text-anchor="middle" font-size="10" fill="#c62828">dignity and ensure your</text>
+  <text x="372" y="244" text-anchor="middle" font-size="10" fill="#c62828">research causes no harm</text>
+  <text x="372" y="260" text-anchor="middle" font-size="9" fill="#555" font-style="italic">protect their well-being</text>
+
+  <!-- Center label -->
+  <text x="250" y="158" text-anchor="middle" font-size="9" fill="#555">Research Ethics</text>
+</svg>

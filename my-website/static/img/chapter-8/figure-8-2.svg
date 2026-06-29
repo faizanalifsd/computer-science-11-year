@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300" font-family="Arial, sans-serif">
+  <rect width="520" height="300" fill="#f8faff" rx="12"/>
+  <text x="260" y="26" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 8.2: Key Components of Digital Literacy</text>
+
+  <!-- 5 horizontal bars stacked -->
+  <!-- Bar 1: Using Technology -->
+  <rect x="30" y="46" width="460" height="42" fill="#1565c0" rx="7"/>
+  <text x="170" y="63" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Using Technology</text>
+  <text x="170" y="79" text-anchor="middle" font-size="9" fill="#BBDEFB">Operate computers, tablets, smartphones; use apps</text>
+  <text x="430" y="71" text-anchor="middle" font-size="24" fill="white" opacity="0.4">💻</text>
+
+  <!-- Bar 2: Searching for Information -->
+  <rect x="30" y="96" width="460" height="42" fill="#1976D2" rx="7"/>
+  <text x="170" y="113" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Searching for Information</text>
+  <text x="170" y="129" text-anchor="middle" font-size="9" fill="#BBDEFB">Keywords, Boolean operators, search filters</text>
+  <text x="430" y="121" text-anchor="middle" font-size="24" fill="white" opacity="0.4">🔍</text>
+
+  <!-- Bar 3: Evaluating Sources -->
+  <rect x="30" y="146" width="460" height="42" fill="#1565c0" rx="7"/>
+  <text x="170" y="163" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Evaluating Sources</text>
+  <text x="170" y="179" text-anchor="middle" font-size="9" fill="#BBDEFB">Check author, publisher, accuracy, currency</text>
+  <text x="430" y="171" text-anchor="middle" font-size="24" fill="white" opacity="0.4">✓</text>
+
+  <!-- Bar 4: Creating Digital Content -->
+  <rect x="30" y="196" width="460" height="42" fill="#1976D2" rx="7"/>
+  <text x="170" y="213" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Creating Digital Content</text>
+  <text x="170" y="229" text-anchor="middle" font-size="9" fill="#BBDEFB">Documents, presentations, media, websites</text>
+  <text x="430" y="221" text-anchor="middle" font-size="24" fill="white" opacity="0.4">✏</text>
+
+  <!-- Bar 5: Online Safety -->
+  <rect x="30" y="246" width="460" height="42" fill="#1565c0" rx="7"/>
+  <text x="170" y="263" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Online Safety &amp; Privacy</text>
+  <text x="170" y="279" text-anchor="middle" font-size="9" fill="#BBDEFB">Protect personal info; recognize threats</text>
+  <text x="430" y="271" text-anchor="middle" font-size="24" fill="white" opacity="0.4">🔒</text>
+</svg>
