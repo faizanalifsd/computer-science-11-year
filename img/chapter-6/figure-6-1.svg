@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="340" viewBox="0 0 520 340" font-family="Arial, sans-serif">
+  <rect width="520" height="340" fill="#f8faff" rx="12"/>
+  <text x="260" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 6.1: Types of Cloud Services</text>
+
+  <!-- Pyramid structure: SaaS (top), PaaS (middle), IaaS (bottom) -->
+
+  <!-- IaaS - bottom layer -->
+  <rect x="60" y="230" width="400" height="80" fill="#1565c0" rx="8"/>
+  <text x="260" y="262" text-anchor="middle" font-size="14" fill="white" font-weight="bold">IaaS</text>
+  <text x="260" y="280" text-anchor="middle" font-size="11" fill="#BBDEFB">Infrastructure as a Service</text>
+  <text x="260" y="298" text-anchor="middle" font-size="10" fill="#90CAF9">Servers · Storage · Networking · VMs</text>
+  <text x="50" y="275" text-anchor="end" font-size="10" fill="#555">AWS · Azure · GCE</text>
+
+  <!-- PaaS - middle layer -->
+  <rect x="110" y="145" width="300" height="75" fill="#1976D2" rx="8"/>
+  <text x="260" y="173" text-anchor="middle" font-size="14" fill="white" font-weight="bold">PaaS</text>
+  <text x="260" y="191" text-anchor="middle" font-size="11" fill="#BBDEFB">Platform as a Service</text>
+  <text x="260" y="208" text-anchor="middle" font-size="10" fill="#90CAF9">Dev Tools · Middleware · Runtime</text>
+  <text x="100" y="188" text-anchor="end" font-size="10" fill="#555">Google App Engine · Heroku</text>
+
+  <!-- SaaS - top layer -->
+  <rect x="160" y="65" width="200" height="70" fill="#42A5F5" rx="8"/>
+  <text x="260" y="91" text-anchor="middle" font-size="14" fill="white" font-weight="bold">SaaS</text>
+  <text x="260" y="109" text-anchor="middle" font-size="11" fill="#E3F2FD">Software as a Service</text>
+  <text x="260" y="125" text-anchor="middle" font-size="10" fill="#E3F2FD">Ready-to-use applications</text>
+  <text x="370" y="105" font-size="10" fill="#555">Gmail · Office 365</text>
+
+  <!-- Left side label: User control -->
+  <text x="38" y="120" text-anchor="middle" font-size="10" fill="#c62828" transform="rotate(-90 38 180)">MORE USER CONTROL</text>
+  <line x1="48" y1="65" x2="48" y2="310" stroke="#c62828" stroke-width="1.5" marker-end="url(#arrow-up)"/>
+
+  <!-- Right side label: Provider manages -->
+  <text x="482" y="200" text-anchor="middle" font-size="10" fill="#2e7d32" transform="rotate(90 482 200)">PROVIDER MANAGES MORE</text>
+  <line x1="472" y1="310" x2="472" y2="65" stroke="#2e7d32" stroke-width="1.5"/>
+
+  <text x="260" y="328" text-anchor="middle" font-size="10" fill="#888">Each layer builds on the one below it</text>
+</svg>

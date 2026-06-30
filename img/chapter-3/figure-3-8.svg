@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="500" viewBox="0 0 560 500" font-family="Arial, sans-serif">
+  <rect width="560" height="500" fill="#f8faff" rx="12"/>
+  <text x="280" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 3.8: BFS vs DFS Graph Traversal</text>
+
+  <defs>
+    <marker id="arr8" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#888"/>
+    </marker>
+  </defs>
+
+  <!-- ===== LEFT: BFS ===== -->
+  <text x="130" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565c0">BFS (uses Queue)</text>
+  <text x="130" y="72" text-anchor="middle" font-size="10" fill="#555">Level by level</text>
+
+  <!-- Nodes -->
+  <!-- Node 0 (root) -->
+  <circle cx="130" cy="110" r="20" fill="#1565c0" stroke="#0d47a1" stroke-width="2"/>
+  <text x="130" y="115" text-anchor="middle" font-size="13" fill="white" font-weight="bold">0</text>
+
+  <!-- Node 1 -->
+  <circle cx="75" cy="175" r="18" fill="#1976D2" stroke="#1565c0" stroke-width="2"/>
+  <text x="75" y="180" text-anchor="middle" font-size="12" fill="white">1</text>
+  <!-- Node 2 -->
+  <circle cx="185" cy="175" r="18" fill="#1976D2" stroke="#1565c0" stroke-width="2"/>
+  <text x="185" y="180" text-anchor="middle" font-size="12" fill="white">2</text>
+
+  <!-- Node 3 -->
+  <circle cx="45" cy="250" r="18" fill="#42A5F5" stroke="#1976D2" stroke-width="2"/>
+  <text x="45" y="255" text-anchor="middle" font-size="12" fill="white">3</text>
+  <!-- Node 4 -->
+  <circle cx="105" cy="250" r="18" fill="#42A5F5" stroke="#1976D2" stroke-width="2"/>
+  <text x="105" y="255" text-anchor="middle" font-size="12" fill="white">4</text>
+  <!-- Node 5 -->
+  <circle cx="160" cy="250" r="18" fill="#42A5F5" stroke="#1976D2" stroke-width="2"/>
+  <text x="160" y="255" text-anchor="middle" font-size="12" fill="white">5</text>
+  <!-- Node 6 -->
+  <circle cx="215" cy="250" r="18" fill="#42A5F5" stroke="#1976D2" stroke-width="2"/>
+  <text x="215" y="255" text-anchor="middle" font-size="12" fill="white">6</text>
+
+  <!-- Node 7 -->
+  <circle cx="105" cy="320" r="18" fill="#90CAF9" stroke="#42A5F5" stroke-width="2"/>
+  <text x="105" y="325" text-anchor="middle" font-size="12" fill="#0d47a1">7</text>
+
+  <!-- BFS Edges -->
+  <line x1="113" y1="126" x2="88" y2="159" stroke="#888" stroke-width="1.5"/>
+  <line x1="147" y1="126" x2="172" y2="159" stroke="#888" stroke-width="1.5"/>
+  <line x1="63" y1="190" x2="52" y2="233" stroke="#888" stroke-width="1.5"/>
+  <line x1="80" y1="191" x2="96" y2="233" stroke="#888" stroke-width="1.5"/>
+  <line x1="174" y1="191" x2="162" y2="233" stroke="#888" stroke-width="1.5"/>
+  <line x1="196" y1="191" x2="210" y2="233" stroke="#888" stroke-width="1.5"/>
+  <line x1="105" y1="268" x2="105" y2="302" stroke="#888" stroke-width="1.5"/>
+
+  <!-- BFS order labels -->
+  <g font-size="9" fill="#e65100" font-weight="bold">
+    <text x="118" y="100">①</text>
+    <text x="62" y="166">②</text>
+    <text x="172" y="166">③</text>
+    <text x="32" y="242">④</text>
+    <text x="92" y="242">⑤</text>
+    <text x="147" y="242">⑥</text>
+    <text x="202" y="242">⑦</text>
+    <text x="92" y="312">⑧</text>
+  </g>
+
+  <!-- BFS output -->
+  <rect x="30" y="355" width="200" height="30" rx="5" fill="#E3F2FD" stroke="#1976D2" stroke-width="1.5"/>
+  <text x="130" y="375" text-anchor="middle" font-size="11" fill="#1565c0" font-weight="bold">Output: 0,1,2,3,4,5,6,7</text>
+
+  <!-- Divider -->
+  <line x1="280" y1="45" x2="280" y2="400" stroke="#ccc" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- ===== RIGHT: DFS ===== -->
+  <text x="420" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#b71c1c">DFS (uses Stack)</text>
+  <text x="420" y="72" text-anchor="middle" font-size="10" fill="#555">Deep branch first, then backtrack</text>
+
+  <!-- DFS Nodes -->
+  <circle cx="420" cy="110" r="20" fill="#b71c1c" stroke="#7f0000" stroke-width="2"/>
+  <text x="420" y="115" text-anchor="middle" font-size="13" fill="white" font-weight="bold">0</text>
+
+  <circle cx="365" cy="175" r="18" fill="#c62828" stroke="#b71c1c" stroke-width="2"/>
+  <text x="365" y="180" text-anchor="middle" font-size="12" fill="white">1</text>
+  <circle cx="475" cy="175" r="18" fill="#c62828" stroke="#b71c1c" stroke-width="2"/>
+  <text x="475" y="180" text-anchor="middle" font-size="12" fill="white">2</text>
+
+  <circle cx="335" cy="250" r="18" fill="#EF5350" stroke="#c62828" stroke-width="2"/>
+  <text x="335" y="255" text-anchor="middle" font-size="12" fill="white">3</text>
+  <circle cx="395" cy="250" r="18" fill="#EF5350" stroke="#c62828" stroke-width="2"/>
+  <text x="395" y="255" text-anchor="middle" font-size="12" fill="white">4</text>
+  <circle cx="450" cy="250" r="18" fill="#EF5350" stroke="#c62828" stroke-width="2"/>
+  <text x="450" y="255" text-anchor="middle" font-size="12" fill="white">5</text>
+  <circle cx="505" cy="250" r="18" fill="#EF5350" stroke="#c62828" stroke-width="2"/>
+  <text x="505" y="255" text-anchor="middle" font-size="12" fill="white">6</text>
+
+  <circle cx="395" cy="320" r="18" fill="#EF9A9A" stroke="#EF5350" stroke-width="2"/>
+  <text x="395" y="325" text-anchor="middle" font-size="12" fill="#7f0000">7</text>
+
+  <!-- DFS Edges -->
+  <line x1="403" y1="126" x2="378" y2="159" stroke="#888" stroke-width="1.5"/>
+  <line x1="437" y1="126" x2="462" y2="159" stroke="#888" stroke-width="1.5"/>
+  <line x1="353" y1="190" x2="342" y2="233" stroke="#888" stroke-width="1.5"/>
+  <line x1="370" y1="191" x2="386" y2="233" stroke="#888" stroke-width="1.5"/>
+  <line x1="464" y1="191" x2="452" y2="233" stroke="#888" stroke-width="1.5"/>
+  <line x1="486" y1="191" x2="500" y2="233" stroke="#888" stroke-width="1.5"/>
+  <line x1="395" y1="268" x2="395" y2="302" stroke="#888" stroke-width="1.5"/>
+
+  <!-- DFS order labels -->
+  <g font-size="9" fill="#e65100" font-weight="bold">
+    <text x="408" y="100">①</text>
+    <text x="352" y="166">②</text>
+    <text x="462" y="166">⑥</text>
+    <text x="322" y="242">③</text>
+    <text x="382" y="242">④</text>
+    <text x="437" y="242">⑦</text>
+    <text x="492" y="242">⑧</text>
+    <text x="382" y="312">⑤</text>
+  </g>
+
+  <!-- DFS output -->
+  <rect x="310" y="355" width="220" height="30" rx="5" fill="#FFEBEE" stroke="#c62828" stroke-width="1.5"/>
+  <text x="420" y="375" text-anchor="middle" font-size="11" fill="#b71c1c" font-weight="bold">Output: 0,1,3,4,7,5,2,6</text>
+
+  <!-- Summary row -->
+  <rect x="30" y="398" width="500" height="82" rx="8" fill="white" stroke="#ddd" stroke-width="1.5"/>
+  <text x="280" y="418" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Comparison</text>
+  <text x="60" y="438" font-size="11" fill="#1565c0">BFS: Uses a Queue | Explores level by level | Best for shortest path</text>
+  <text x="60" y="456" font-size="11" fill="#b71c1c">DFS: Uses a Stack | Explores deep branch first | Best for maze/puzzle solving</text>
+  <text x="60" y="474" font-size="11" fill="#555">Both have time complexity: O(V + E)  where V = vertices, E = edges</text>
+</svg>

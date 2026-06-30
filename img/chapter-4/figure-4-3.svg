@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400" font-family="Arial, sans-serif">
+  <rect width="480" height="400" fill="#f8faff" rx="12"/>
+  <text x="240" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 4.3: Family Tree — Hierarchical Tree Structure</text>
+
+  <defs>
+    <marker id="ta" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- Helper: node circle + label -->
+  <!-- Level 0: Grandparents -->
+  <circle cx="150" cy="80" r="32" fill="#1565c0" stroke="#0d47a1" stroke-width="2"/>
+  <text x="150" y="76" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Grand-</text>
+  <text x="150" y="90" text-anchor="middle" font-size="11" fill="white" font-weight="bold">father</text>
+
+  <circle cx="330" cy="80" r="32" fill="#1565c0" stroke="#0d47a1" stroke-width="2"/>
+  <text x="330" y="76" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Grand-</text>
+  <text x="330" y="90" text-anchor="middle" font-size="11" fill="white" font-weight="bold">mother</text>
+
+  <!-- Marriage line -->
+  <line x1="182" y1="80" x2="298" y2="80" stroke="#555" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="240" y="73" text-anchor="middle" font-size="10" fill="#888">married</text>
+
+  <!-- Level 1: Parents + Uncle/Aunt -->
+  <line x1="240" y1="80" x2="240" y2="115" stroke="#555" stroke-width="1.5"/>
+  <line x1="130" y1="115" x2="370" y2="115" stroke="#555" stroke-width="1.5"/>
+  <line x1="130" y1="115" x2="130" y2="150" stroke="#555" stroke-width="1.5" marker-end="url(#ta)"/>
+  <line x1="240" y1="115" x2="240" y2="150" stroke="#555" stroke-width="1.5" marker-end="url(#ta)"/>
+  <line x1="370" y1="115" x2="370" y2="150" stroke="#555" stroke-width="1.5" marker-end="url(#ta)"/>
+
+  <circle cx="130" cy="175" r="28" fill="#1976D2" stroke="#1565c0" stroke-width="2"/>
+  <text x="130" y="171" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Father</text>
+  <text x="130" y="185" text-anchor="middle" font-size="10" fill="white">(root sub)</text>
+
+  <circle cx="240" cy="175" r="28" fill="#1976D2" stroke="#1565c0" stroke-width="2"/>
+  <text x="240" y="171" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Mother</text>
+  <text x="240" y="185" text-anchor="middle" font-size="10" fill="white">(root sub)</text>
+
+  <circle cx="370" cy="175" r="28" fill="#42A5F5" stroke="#1976D2" stroke-width="2"/>
+  <text x="370" y="171" text-anchor="middle" font-size="11" fill="white">Uncle/</text>
+  <text x="370" y="185" text-anchor="middle" font-size="11" fill="white">Aunt</text>
+
+  <!-- Level 2: Children -->
+  <line x1="185" y1="175" x2="240" y2="175" stroke="#555" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="185" y1="175" x2="185" y2="250" stroke="#555" stroke-width="1.5"/>
+  <line x1="90" y1="250" x2="300" y2="250" stroke="#555" stroke-width="1.5"/>
+  <line x1="90" y1="250" x2="90" y2="280" stroke="#555" stroke-width="1.5" marker-end="url(#ta)"/>
+  <line x1="185" y1="250" x2="185" y2="280" stroke="#555" stroke-width="1.5" marker-end="url(#ta)"/>
+  <line x1="300" y1="250" x2="300" y2="280" stroke="#555" stroke-width="1.5" marker-end="url(#ta)"/>
+
+  <circle cx="90" cy="305" r="25" fill="#4CAF50" stroke="#2e7d32" stroke-width="2"/>
+  <text x="90" y="301" text-anchor="middle" font-size="11" fill="white">Brother</text>
+  <text x="90" y="315" text-anchor="middle" font-size="10" fill="white">(leaf)</text>
+
+  <circle cx="185" cy="305" r="25" fill="#FF9800" stroke="#e65100" stroke-width="2"/>
+  <text x="185" y="309" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Me</text>
+
+  <circle cx="300" cy="305" r="25" fill="#4CAF50" stroke="#2e7d32" stroke-width="2"/>
+  <text x="300" y="301" text-anchor="middle" font-size="11" fill="white">Sister</text>
+  <text x="300" y="315" text-anchor="middle" font-size="10" fill="white">(leaf)</text>
+
+  <!-- Cousin from Uncle/Aunt -->
+  <line x1="370" y1="203" x2="420" y2="280" stroke="#555" stroke-width="1.5" marker-end="url(#ta)"/>
+  <circle cx="420" cy="305" r="25" fill="#9C27B0" stroke="#6a1b9a" stroke-width="2"/>
+  <text x="420" y="301" text-anchor="middle" font-size="11" fill="white">Cousin</text>
+  <text x="420" y="315" text-anchor="middle" font-size="10" fill="white">(leaf)</text>
+
+  <!-- Legend -->
+  <text x="30" y="370" font-size="11" fill="#555">Root = Grandparents  |  Leaves = nodes with no children  |  Height = 3 levels</text>
+</svg>

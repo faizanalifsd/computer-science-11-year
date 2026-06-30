@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="340" viewBox="0 0 480 340" font-family="Arial, sans-serif">
+  <rect width="480" height="340" fill="#f8faff" rx="12"/>
+  <text x="240" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 5.2: Line Graph — Temperature Variation Over a Day</text>
+
+  <!-- Axes -->
+  <line x1="70" y1="270" x2="440" y2="270" stroke="#333" stroke-width="2"/>
+  <line x1="70" y1="50" x2="70" y2="270" stroke="#333" stroke-width="2"/>
+
+  <!-- Grid -->
+  <g stroke="#e0e0e0" stroke-width="1">
+    <line x1="70" y1="220" x2="440" y2="220"/>
+    <line x1="70" y1="170" x2="440" y2="170"/>
+    <line x1="70" y1="120" x2="440" y2="120"/>
+    <line x1="70" y1="70" x2="440" y2="70"/>
+  </g>
+
+  <!-- Y labels (temp in °C, range 15-40) -->
+  <text x="60" y="274" text-anchor="end" font-size="11" fill="#555">15°C</text>
+  <text x="60" y="224" text-anchor="end" font-size="11" fill="#555">20°C</text>
+  <text x="60" y="174" text-anchor="end" font-size="11" fill="#555">25°C</text>
+  <text x="60" y="124" text-anchor="end" font-size="11" fill="#555">30°C</text>
+  <text x="60" y="74" text-anchor="end" font-size="11" fill="#555">35°C</text>
+
+  <!-- Data points: (time, temp) mapped to svg coords
+       X: 70 to 440 = 370px for 8 time points (spacing=52.8)
+       Y: 270 to 50 = 220px for 20°C range (each °C = 11px)
+       Temps: 6am=18, 9am=22, 12pm=32, 3pm=36, 6pm=30, 9pm=24, 12am=19
+  -->
+  <!-- y = 270 - (temp-15)*11 -->
+  <!-- 18→237, 22→203, 32→93, 36→49, 30→105, 24→159, 19→226 -->
+  <polyline points="100,237 162,203 222,93 284,49 344,105 404,159 440,226"
+            stroke="#f44336" stroke-width="2.5" fill="none"/>
+
+  <!-- Data point dots -->
+  <g fill="#f44336">
+    <circle cx="100" cy="237" r="5"/>
+    <circle cx="162" cy="203" r="5"/>
+    <circle cx="222" cy="93" r="5"/>
+    <circle cx="284" cy="49" r="5"/>
+    <circle cx="344" cy="105" r="5"/>
+    <circle cx="404" cy="159" r="5"/>
+    <circle cx="440" cy="226" r="5"/>
+  </g>
+
+  <!-- Value labels -->
+  <g font-size="10" fill="#c62828" text-anchor="middle">
+    <text x="100" y="230">18°</text>
+    <text x="162" y="196">22°</text>
+    <text x="222" y="86">32°</text>
+    <text x="284" y="42">36°</text>
+    <text x="344" y="98">30°</text>
+    <text x="404" y="152">24°</text>
+    <text x="440" y="219">19°</text>
+  </g>
+
+  <!-- X-axis labels -->
+  <g font-size="11" fill="#555" text-anchor="middle">
+    <text x="100" y="288">6 AM</text>
+    <text x="162" y="288">9 AM</text>
+    <text x="222" y="288">12 PM</text>
+    <text x="284" y="288">3 PM</text>
+    <text x="344" y="288">6 PM</text>
+    <text x="404" y="288">9 PM</text>
+    <text x="440" y="288">12 AM</text>
+  </g>
+
+  <!-- Axis labels -->
+  <text x="255" y="312" text-anchor="middle" font-size="12" fill="#555">Time of Day</text>
+  <text x="20" y="160" font-size="12" fill="#555" transform="rotate(-90 20 160)">Temperature (°C)</text>
+</svg>

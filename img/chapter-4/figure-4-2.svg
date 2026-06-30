@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="280" viewBox="0 0 520 280" font-family="Arial, sans-serif">
+  <rect width="520" height="280" fill="#f8faff" rx="12"/>
+  <text x="260" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 4.2: Queue — FIFO (First-In, First-Out)</text>
+
+  <defs>
+    <marker id="qa" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+    </marker>
+  </defs>
+
+  <!-- Queue container -->
+  <rect x="80" y="90" width="360" height="80" rx="8" fill="none" stroke="#90A4AE" stroke-width="2"/>
+
+  <!-- People in queue (left=front, right=back) -->
+  <!-- Person 1 (front) -->
+  <rect x="88" y="98" width="72" height="64" rx="6" fill="#4CAF50" stroke="#2e7d32" stroke-width="2"/>
+  <text x="124" y="126" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Ahmed</text>
+  <text x="124" y="143" text-anchor="middle" font-size="10" fill="white">1st (front)</text>
+
+  <!-- Person 2 -->
+  <rect x="168" y="98" width="72" height="64" rx="6" fill="#1976D2" stroke="#1565c0" stroke-width="2"/>
+  <text x="204" y="126" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Fatima</text>
+  <text x="204" y="143" text-anchor="middle" font-size="10" fill="white">2nd</text>
+
+  <!-- Person 3 -->
+  <rect x="248" y="98" width="72" height="64" rx="6" fill="#1976D2" stroke="#1565c0" stroke-width="2"/>
+  <text x="284" y="126" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Sara</text>
+  <text x="284" y="143" text-anchor="middle" font-size="10" fill="white">3rd</text>
+
+  <!-- Person 4 (back) -->
+  <rect x="328" y="98" width="104" height="64" rx="6" fill="#FF9800" stroke="#e65100" stroke-width="2"/>
+  <text x="380" y="126" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Ali</text>
+  <text x="380" y="143" text-anchor="middle" font-size="10" fill="white">4th (back/new)</text>
+
+  <!-- DEQUEUE arrow (left) -->
+  <line x1="80" y1="130" x2="30" y2="130" stroke="#c62828" stroke-width="2.5" marker-end="url(#qa)"/>
+  <text x="15" y="115" font-size="11" fill="#c62828" font-weight="bold">DEQUEUE</text>
+  <text x="15" y="128" font-size="10" fill="#c62828">(remove</text>
+  <text x="15" y="141" font-size="10" fill="#c62828">from front)</text>
+
+  <!-- ENQUEUE arrow (right) -->
+  <line x1="490" y1="130" x2="442" y2="130" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#qa)"/>
+  <text x="492" y="115" font-size="11" fill="#2e7d32" font-weight="bold">ENQUEUE</text>
+  <text x="492" y="128" font-size="10" fill="#2e7d32">(add to</text>
+  <text x="492" y="141" font-size="10" fill="#2e7d32">back)</text>
+
+  <!-- Labels -->
+  <text x="124" y="185" text-anchor="middle" font-size="11" fill="#c62828" font-weight="bold">FRONT</text>
+  <text x="380" y="185" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="bold">BACK</text>
+
+  <!-- Bank counter -->
+  <rect x="20" y="200" width="100" height="40" rx="6" fill="#607D8B" stroke="#37474f" stroke-width="2"/>
+  <text x="70" y="225" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Bank Counter</text>
+
+  <!-- FIFO explanation -->
+  <rect x="140" y="210" width="240" height="26" rx="6" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5"/>
+  <text x="260" y="228" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="bold">FIFO: First Person In = First Person Served</text>
+</svg>

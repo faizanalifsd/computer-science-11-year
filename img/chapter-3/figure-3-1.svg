@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="520" viewBox="0 0 400 520" font-family="Arial, sans-serif">
+  <rect width="400" height="520" fill="#f8faff" rx="12"/>
+  <text x="200" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Flowchart for Finding an Even Number</text>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+    </marker>
+  </defs>
+  <!-- START -->
+  <ellipse cx="200" cy="70" rx="55" ry="25" fill="#4CAF50" stroke="#2e7d32" stroke-width="2"/>
+  <text x="200" y="75" text-anchor="middle" font-size="14" font-weight="bold" fill="white">START</text>
+  <line x1="200" y1="95" x2="200" y2="125" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Input -->
+  <polygon points="110,125 290,125 275,165 95,165" fill="#2196F3" stroke="#1565c0" stroke-width="2"/>
+  <text x="193" y="150" text-anchor="middle" font-size="13" fill="white">Input: Number (n)</text>
+  <line x1="200" y1="165" x2="200" y2="200" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Decision -->
+  <polygon points="200,200 295,248 200,296 105,248" fill="#FF9800" stroke="#e65100" stroke-width="2"/>
+  <text x="200" y="244" text-anchor="middle" font-size="12" fill="white">n % 2 == 0?</text>
+  <!-- YES left -->
+  <line x1="105" y1="248" x2="55" y2="248" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="80" y="240" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="bold">YES</text>
+  <line x1="55" y1="248" x2="55" y2="340" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- NO right -->
+  <line x1="295" y1="248" x2="345" y2="248" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="320" y="240" text-anchor="middle" font-size="11" fill="#c62828" font-weight="bold">NO</text>
+  <line x1="345" y1="248" x2="345" y2="340" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- EVEN output -->
+  <polygon points="15,340 95,340 110,372 0,372" fill="#4CAF50" stroke="#2e7d32" stroke-width="2"/>
+  <text x="55" y="361" text-anchor="middle" font-size="12" fill="white">Print "EVEN"</text>
+  <!-- ODD output -->
+  <polygon points="305,340 385,340 400,372 290,372" fill="#f44336" stroke="#b71c1c" stroke-width="2"/>
+  <text x="345" y="361" text-anchor="middle" font-size="12" fill="white">Print "ODD"</text>
+  <!-- Merge to END -->
+  <line x1="55" y1="372" x2="55" y2="420" stroke="#444" stroke-width="2"/>
+  <line x1="55" y1="420" x2="185" y2="420" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="345" y1="372" x2="345" y2="420" stroke="#444" stroke-width="2"/>
+  <line x1="345" y1="420" x2="215" y2="420" stroke="#444" stroke-width="2"/>
+  <!-- END -->
+  <ellipse cx="200" cy="460" rx="55" ry="25" fill="#9C27B0" stroke="#6a1b9a" stroke-width="2"/>
+  <text x="200" y="465" text-anchor="middle" font-size="14" font-weight="bold" fill="white">END</text>
+  <line x1="200" y1="420" x2="200" y2="435" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+</svg>

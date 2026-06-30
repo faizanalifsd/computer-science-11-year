@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" font-family="Arial, sans-serif">
+  <rect width="480" height="360" fill="#f8faff" rx="12"/>
+  <text x="240" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Figure 5.5: Boxplot — Exam Score Comparison (3 Classes)</text>
+
+  <!-- Axes -->
+  <line x1="70" y1="290" x2="440" y2="290" stroke="#333" stroke-width="2"/>
+  <line x1="70" y1="50"  x2="70"  y2="290" stroke="#333" stroke-width="2"/>
+
+  <!-- Grid -->
+  <g stroke="#e0e0e0" stroke-width="1">
+    <line x1="70" y1="50"  x2="440" y2="50"/>
+    <line x1="70" y1="98"  x2="440" y2="98"/>
+    <line x1="70" y1="146" x2="440" y2="146"/>
+    <line x1="70" y1="194" x2="440" y2="194"/>
+    <line x1="70" y1="242" x2="440" y2="242"/>
+  </g>
+
+  <!-- Y labels: score 50-100, 240px → 4.8px per unit -->
+  <!-- y = 290 - (score-50)*4.8 -->
+  <text x="60" y="294" text-anchor="end" font-size="11" fill="#555">50</text>
+  <text x="60" y="246" text-anchor="end" font-size="11" fill="#555">60</text>
+  <text x="60" y="198" text-anchor="end" font-size="11" fill="#555">70</text>
+  <text x="60" y="150" text-anchor="end" font-size="11" fill="#555">80</text>
+  <text x="60" y="102" text-anchor="end" font-size="11" fill="#555">90</text>
+  <text x="60" y="54"  text-anchor="end" font-size="11" fill="#555">100</text>
+
+  <!-- CLASS 1 (centered at x=150): min=55, Q1=62, median=70, Q3=78, max=88 -->
+  <!-- min=290-(55-50)*4.8=266, Q1=290-(62-50)*4.8=232.4, med=290-(70-50)*4.8=194 -->
+  <!-- Q3=290-(78-50)*4.8=155.6, max=290-(88-50)*4.8=107.6 -->
+  <!-- Whiskers -->
+  <line x1="150" y1="266" x2="150" y2="232" stroke="#1565c0" stroke-width="2"/>
+  <line x1="130" y1="266" x2="170" y2="266" stroke="#1565c0" stroke-width="2"/>
+  <line x1="150" y1="108" x2="150" y2="156" stroke="#1565c0" stroke-width="2"/>
+  <line x1="130" y1="108" x2="170" y2="108" stroke="#1565c0" stroke-width="2"/>
+  <!-- Box Q1-Q3 -->
+  <rect x="115" y="156" width="70" height="76" fill="#BBDEFB" stroke="#1565c0" stroke-width="2"/>
+  <!-- Median line -->
+  <line x1="115" y1="194" x2="185" y2="194" stroke="#1565c0" stroke-width="2.5"/>
+  <text x="150" y="320" text-anchor="middle" font-size="12" fill="#1565c0" font-weight="bold">Class 1</text>
+  <text x="150" y="335" text-anchor="middle" font-size="10" fill="#555">Med=70</text>
+
+  <!-- CLASS 2 (centered at x=255): min=60, Q1=68, median=76, Q3=84, max=95 -->
+  <!-- min=290-(60-50)*4.8=242, Q1=290-(68-50)*4.8=203.6, med=290-(76-50)*4.8=165.2 -->
+  <!-- Q3=290-(84-50)*4.8=126.8, max=290-(95-50)*4.8=74 -->
+  <line x1="255" y1="242" x2="255" y2="204" stroke="#2e7d32" stroke-width="2"/>
+  <line x1="235" y1="242" x2="275" y2="242" stroke="#2e7d32" stroke-width="2"/>
+  <line x1="255" y1="74"  x2="255" y2="127" stroke="#2e7d32" stroke-width="2"/>
+  <line x1="235" y1="74"  x2="275" y2="74"  stroke="#2e7d32" stroke-width="2"/>
+  <rect x="220" y="127" width="70" height="77" fill="#C8E6C9" stroke="#2e7d32" stroke-width="2"/>
+  <line x1="220" y1="165" x2="290" y2="165" stroke="#2e7d32" stroke-width="2.5"/>
+  <text x="255" y="320" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">Class 2</text>
+  <text x="255" y="335" text-anchor="middle" font-size="10" fill="#555">Med=76</text>
+
+  <!-- CLASS 3 (centered at x=360): min=52, Q1=58, median=65, Q3=74, max=82 -->
+  <!-- min=290-(52-50)*4.8=280.4, Q1=290-(58-50)*4.8=251.6, med=290-(65-50)*4.8=218 -->
+  <!-- Q3=290-(74-50)*4.8=174.8, max=290-(82-50)*4.8=136.4 -->
+  <line x1="360" y1="280" x2="360" y2="252" stroke="#c62828" stroke-width="2"/>
+  <line x1="340" y1="280" x2="380" y2="280" stroke="#c62828" stroke-width="2"/>
+  <line x1="360" y1="136" x2="360" y2="175" stroke="#c62828" stroke-width="2"/>
+  <line x1="340" y1="136" x2="380" y2="136" stroke="#c62828" stroke-width="2"/>
+  <rect x="325" y="175" width="70" height="77" fill="#FFCDD2" stroke="#c62828" stroke-width="2"/>
+  <line x1="325" y1="218" x2="395" y2="218" stroke="#c62828" stroke-width="2.5"/>
+  <text x="360" y="320" text-anchor="middle" font-size="12" fill="#c62828" font-weight="bold">Class 3</text>
+  <text x="360" y="335" text-anchor="middle" font-size="10" fill="#555">Med=65</text>
+
+  <!-- Legend -->
+  <rect x="90" y="52" width="12" height="12" fill="#C8E6C9" stroke="#2e7d32" stroke-width="1"/>
+  <text x="107" y="62" font-size="10" fill="#333">Box = Q1 to Q3 (middle 50% of scores)</text>
+  <line x1="90" y1="75" x2="102" y2="75" stroke="#333" stroke-width="2.5"/>
+  <text x="107" y="79" font-size="10" fill="#333">Median line</text>
+  <line x1="170" y1="75" x2="182" y2="75" stroke="#333" stroke-width="1.5"/>
+  <text x="187" y="79" font-size="10" fill="#333">Whisker = min/max</text>
+
+  <!-- Y axis label -->
+  <text x="20" y="170" font-size="12" fill="#555" transform="rotate(-90 20 170)">Exam Score</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="460" viewBox="0 0 420 460" font-family="Arial, monospace">
+  <rect width="420" height="460" fill="#f8faff" rx="12"/>
+  <text x="210" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e" font-family="Arial, sans-serif">Figure 3.3: A Simple Sudoku Puzzle</text>
+
+  <!-- Grid offset: top-left at (60, 50) each cell 32x32 -->
+  <!-- Outer border -->
+  <rect x="60" y="50" width="288" height="288" fill="white" stroke="#1a1a2e" stroke-width="3"/>
+
+  <!-- Inner cells (9x9) -->
+  <g stroke="#aaa" stroke-width="1">
+    <!-- Vertical thin lines -->
+    <line x1="92" y1="50" x2="92" y2="338"/>
+    <line x1="124" y1="50" x2="124" y2="338"/>
+    <line x1="188" y1="50" x2="188" y2="338"/>
+    <line x1="220" y1="50" x2="220" y2="338"/>
+    <line x1="284" y1="50" x2="284" y2="338"/>
+    <line x1="316" y1="50" x2="316" y2="338"/>
+    <!-- Horizontal thin lines -->
+    <line x1="60" y1="82" x2="348" y2="82"/>
+    <line x1="60" y1="114" x2="348" y2="114"/>
+    <line x1="60" y1="178" x2="348" y2="178"/>
+    <line x1="60" y1="210" x2="348" y2="210"/>
+    <line x1="60" y1="274" x2="348" y2="274"/>
+    <line x1="60" y1="306" x2="348" y2="306"/>
+  </g>
+  <!-- Thick 3x3 box borders -->
+  <g stroke="#1a1a2e" stroke-width="3">
+    <line x1="156" y1="50" x2="156" y2="338"/>
+    <line x1="252" y1="50" x2="252" y2="338"/>
+    <line x1="60" y1="146" x2="348" y2="146"/>
+    <line x1="60" y1="242" x2="348" y2="242"/>
+  </g>
+
+  <!-- Pre-filled numbers (given — in blue) -->
+  <g font-size="18" font-weight="bold" fill="#1565c0" text-anchor="middle" font-family="Arial, sans-serif">
+    <!-- Row 0 (y=50, center=66) -->
+    <text x="76" y="73">5</text>
+    <text x="108" y="73">3</text>
+    <text x="204" y="73">7</text>
+    <!-- Row 1 (y=82, center=98) -->
+    <text x="76" y="105">6</text>
+    <text x="204" y="105">1</text>
+    <text x="236" y="105">9</text>
+    <text x="268" y="105">5</text>
+    <!-- Row 2 (y=114, center=130) -->
+    <text x="140" y="137">9</text>
+    <text x="172" y="137">8</text>
+    <text x="332" y="137">6</text>
+    <!-- Row 3 (y=146, center=162) -->
+    <text x="76" y="169">8</text>
+    <text x="172" y="169">6</text>
+    <text x="300" y="169">3</text>
+    <!-- Row 4 (y=178, center=194) -->
+    <text x="76" y="201">4</text>
+    <text x="140" y="201">8</text>
+    <text x="236" y="201">3</text>
+    <text x="300" y="201">1</text>
+    <!-- Row 5 (y=210, center=226) -->
+    <text x="108" y="233">2</text>
+    <text x="172" y="233">4</text>
+    <text x="332" y="233">8</text>
+    <!-- Row 6 (y=242, center=258) -->
+    <text x="108" y="265">6</text>
+    <text x="172" y="265">5</text>
+    <text x="348" y="265">9</text>
+    <!-- Row 7 (y=274, center=290) -->
+    <text x="76" y="297">2</text>
+    <text x="140" y="297">8</text>
+    <text x="172" y="297">7</text>
+    <text x="332" y="297">4</text>
+    <!-- Row 8 (y=306, center=322) -->
+    <text x="172" y="329">1</text>
+    <text x="268" y="329">8</text>
+    <text x="332" y="329">2</text>
+  </g>
+
+  <!-- Legend -->
+  <rect x="60" y="360" width="14" height="14" fill="#1565c0"/>
+  <text x="80" y="372" font-size="12" fill="#333" font-family="Arial, sans-serif">Given numbers</text>
+  <text x="60" y="400" font-size="11" fill="#555" font-family="Arial, sans-serif">Goal: Fill each row, column, and 3×3 box</text>
+  <text x="60" y="418" font-size="11" fill="#555" font-family="Arial, sans-serif">with digits 1–9 (no repeats).</text>
+  <text x="60" y="440" font-size="11" fill="#555" font-family="Arial, sans-serif">Verifying a solution is easy (NP), finding one is hard.</text>
+</svg>

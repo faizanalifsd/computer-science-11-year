@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="580" viewBox="0 0 420 580" font-family="Arial, sans-serif">
+  <rect width="420" height="580" fill="#f8faff" rx="12"/>
+  <text x="210" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a2e">Flowchart: Generate and Test Method</text>
+  <defs>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+    </marker>
+  </defs>
+  <!-- START -->
+  <ellipse cx="210" cy="68" rx="55" ry="25" fill="#4CAF50" stroke="#2e7d32" stroke-width="2"/>
+  <text x="210" y="73" text-anchor="middle" font-size="14" font-weight="bold" fill="white">START</text>
+  <line x1="210" y1="93" x2="210" y2="120" stroke="#444" stroke-width="2" marker-end="url(#arr2)"/>
+  <!-- Generate -->
+  <rect x="120" y="120" width="180" height="50" rx="8" fill="#2196F3" stroke="#1565c0" stroke-width="2"/>
+  <text x="210" y="140" text-anchor="middle" font-size="12" fill="white">Generate a Candidate</text>
+  <text x="210" y="158" text-anchor="middle" font-size="12" fill="white">Solution</text>
+  <line x1="210" y1="170" x2="210" y2="205" stroke="#444" stroke-width="2" marker-end="url(#arr2)"/>
+  <!-- Decision 1 -->
+  <polygon points="210,205 315,255 210,305 105,255" fill="#FF9800" stroke="#e65100" stroke-width="2"/>
+  <text x="210" y="251" text-anchor="middle" font-size="11" fill="white">Does it satisfy</text>
+  <text x="210" y="265" text-anchor="middle" font-size="11" fill="white">conditions?</text>
+  <!-- YES right -->
+  <line x1="315" y1="255" x2="365" y2="255" stroke="#444" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="342" y="247" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="bold">YES</text>
+  <!-- Output solution box -->
+  <rect x="330" y="320" width="80" height="45" rx="6" fill="#4CAF50" stroke="#2e7d32" stroke-width="2"/>
+  <text x="370" y="338" text-anchor="middle" font-size="11" fill="white">Output</text>
+  <text x="370" y="354" text-anchor="middle" font-size="11" fill="white">Solution</text>
+  <line x1="365" y1="255" x2="365" y2="320" stroke="#444" stroke-width="2" marker-end="url(#arr2)"/>
+  <!-- NO down -->
+  <line x1="210" y1="305" x2="210" y2="340" stroke="#444" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="225" y="330" font-size="11" fill="#c62828" font-weight="bold">NO</text>
+  <!-- Decision 2 -->
+  <polygon points="210,340 315,390 210,440 105,390" fill="#9C27B0" stroke="#6a1b9a" stroke-width="2"/>
+  <text x="210" y="386" text-anchor="middle" font-size="11" fill="white">More candidates</text>
+  <text x="210" y="400" text-anchor="middle" font-size="11" fill="white">available?</text>
+  <!-- YES left loop -->
+  <line x1="105" y1="390" x2="55" y2="390" stroke="#444" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="80" y="382" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="bold">YES</text>
+  <line x1="55" y1="390" x2="55" y2="145" stroke="#444" stroke-width="2"/>
+  <line x1="55" y1="145" x2="120" y2="145" stroke="#444" stroke-width="2" marker-end="url(#arr2)"/>
+  <!-- NO down -->
+  <line x1="210" y1="440" x2="210" y2="475" stroke="#444" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="225" y="462" font-size="11" fill="#c62828" font-weight="bold">NO</text>
+  <!-- No Solution -->
+  <rect x="130" y="475" width="160" height="40" rx="6" fill="#f44336" stroke="#b71c1c" stroke-width="2"/>
+  <text x="210" y="500" text-anchor="middle" font-size="12" fill="white">No Solution Found</text>
+  <line x1="210" y1="515" x2="210" y2="540" stroke="#444" stroke-width="2" marker-end="url(#arr2)"/>
+  <!-- END -->
+  <ellipse cx="210" cy="558" rx="55" ry="22" fill="#607D8B" stroke="#37474f" stroke-width="2"/>
+  <text x="210" y="563" text-anchor="middle" font-size="13" font-weight="bold" fill="white">END</text>
+  <!-- Solution to END -->
+  <line x1="370" y1="365" x2="370" y2="558" stroke="#444" stroke-width="2"/>
+  <line x1="370" y1="558" x2="265" y2="558" stroke="#444" stroke-width="2" marker-end="url(#arr2)"/>
+</svg>
