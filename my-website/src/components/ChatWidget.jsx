@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import '../css/chat.css';
 
-const BACKEND_URL = 'http://localhost:8000';
+const BACKEND_URL = 'https://cs11-book-api.vercel.app';
 const HISTORY_KEY = 'robo_history';
 const HISTORY_MAX = 5;
 const HISTORY_TTL = 24 * 60 * 60 * 1000;
