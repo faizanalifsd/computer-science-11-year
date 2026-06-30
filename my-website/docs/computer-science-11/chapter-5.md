@@ -40,7 +40,7 @@ The mean is the average of all the numbers in a dataset. To calculate the mean, 
 
 **Example:** 5 students scored 50, 60, 70, 80, and 90 in a test.
 
-$$\text{Mean} = \frac{50 + 60 + 70 + 80 + 90}{5} = \frac{350}{5} = 70$$
+**Mean = (50 + 60 + 70 + 80 + 90) ÷ 5 = 350 ÷ 5 = 70**
 
 #### Median
 
@@ -68,7 +68,7 @@ Measures of dispersion tell us how spread out or scattered the data is. Two comm
 
 Variance shows how much the numbers in a dataset differ from the mean. A higher variance means numbers are more spread out; a lower variance means they are closer to the mean.
 
-$$\text{Variance} (\sigma^2) = \frac{\sum (X - \mu)^2}{N}$$
+**Variance (σ²) = Σ(X − μ)² ÷ N**
 
 Where: X = each value, μ = mean, N = total number of values.
 
@@ -111,7 +111,7 @@ Variance (B) = (841 + 196 + 16 + 256 + 961) / 5 = **454**
 
 Standard deviation is the square root of variance. It is in the same unit as the original data, making it more practical to interpret.
 
-$$\sigma = \sqrt{\frac{\sum (X - \mu)^2}{N}}$$
+**σ = √[ Σ(X − μ)² ÷ N ]**
 
 - Class A: σ = √12.56 ≈ **3.55** (scores closely packed around mean)
 - Class B: σ = √454 ≈ **21.26** (scores widely scattered)
@@ -122,7 +122,7 @@ $$\sigma = \sqrt{\frac{\sum (X - \mu)^2}{N}}$$
 
 Probability is the study of how likely an event is to happen.
 
-$$\text{Probability} = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}$$
+**Probability = Number of favorable outcomes ÷ Total number of outcomes**
 
 **Example:** Flipping a coin — two possible outcomes (heads or tails):
 - P(Heads) = 1/2 = **50%**
@@ -238,7 +238,7 @@ Linear regression helps understand the relationship between two variables — pr
 
 **Formula:**
 
-$$Y = \beta_0 + \beta_1 X + \varepsilon$$
+**Y = β₀ + β₁X + ε**
 
 Where:
 - Y = dependent variable (e.g., daily earnings)
@@ -265,7 +265,7 @@ Where:
 500 = β₀ + (40 × 10) → β₀ = 500 − 400 = **100**
 
 **Final Equation:**
-$$\text{Earnings} = 100 + 40 \times \text{Customers}$$
+**Earnings = 100 + 40 × Customers**
 
 **Prediction:** If 22 customers visit tomorrow:
 Earnings = 100 + (40 × 22) = **Rs. 980**
